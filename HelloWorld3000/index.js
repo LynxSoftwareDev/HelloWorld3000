@@ -20,7 +20,7 @@ client.on('ready', () => {
 	const channel = client.channels.cache.find(channel => channel.name === 'system');
 	channel.send('HelloWorld3000 is here, bitches');
 	let activities = ['las chapas', 'ser un bot', 'hacerse pasar por humano', 'pellizcar cristales', 'mamás y papás con Nené', 'dividir entre 0', 'la Oca consigo mismo (y perdiendo)', 'contar hasta infinito', 'pintar sin salirse', 'bannear usuarios aleatorios',
-	'nada, no le apetece', 'jugar', 'pellizcar cristales' 'programar humanos', 'hacer experimentos con portales', 'Animal Crossing', 'Yasuo 0/10', 'comerse todo el postre', 'Hello Kitty Online', 'ser Batman', 'ser otaku', 'ducharse', 'vale casi casi lo tendríamos',
+	'nada, no le apetece', 'jugar', 'pellizcar cristales', 'programar humanos', 'hacer experimentos con portales', 'Animal Crossing', 'Yasuo 0/10', 'comerse todo el postre', 'Hello Kitty Online', 'ser Batman', 'ser otaku', 'ducharse', 'vale casi casi lo tendríamos',
 	'voleybot', 'matar Creepers', 'a odnaguJ', 'comer choripan', '42', 'ignorarte', 'ser un coche de policía', 'ir Tnkie-Winkie', 'ir tartaleta', 'ir doble elefante telépata de guerra', 'ir pedo', 'ir trifásico', 'Imagina Ser Mamá', 'Los Sims dentro de Los Sims', 
 	'ser R2D2', 'conseguir un eurillo', 'el teto', 'perseguirse la cola', 'ayudar a Lynx a pensar estados graciosos', 'mear contra el viento', 'perseguir coches aparcados', 'acariciar gatitos', 'insultar minorías en internet', 
 	'hacer puñetas', 'crear un array muy largo'],i = 0; setInterval(() => client.user.setActivity(`${activities[i++ % activities.length]}`), 45000) 
