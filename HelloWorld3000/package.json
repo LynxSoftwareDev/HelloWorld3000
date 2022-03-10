@@ -1,0 +1,20 @@
+{
+  "name": "helloworld3000",
+  "version": "1.0.0",
+  "main": "bot.js",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "opusscript": "^0.0.7",
+    "node-opus": "^0.3.3"
+  },
+  "devDependencies": {
+    "@discordjs/opus": "^0.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": ""
+}
